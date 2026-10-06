@@ -1,3 +1,7 @@
+<p align="center"><img src="assets/rig-banner.svg" width="1280" alt="XNODE — RED └•TEAM•┐ lab™"></p>
+
+[Штаб лаборатории](https://github.com/Xnode-sh/RED-TEAM-LAB) · [Профиль XNODE](https://github.com/Xnode-sh)
+
 # sockpuppet-hunter
 
 Авторский детект связанных аккаунтов (sockpuppets). Не ищет «где зарегистрирован» — **сшивает разные идентичности в кластеры** по совокупности сигналов:
@@ -33,7 +37,7 @@ python -m sockpuppet hunt xnode_sh --no-avatar
 python -m sockpuppet hunt xnode_sh --json out.json --mermaid graph.mmd
 
 # кластеризация готового списка (в т.ч. склейка вывода sherlock/maigret руками)
-python -m sockpuppet correlate examples/sample_profiles.json
+python -m sockpuppet correlate profiles.json
 ```
 
 ## Формат profiles.json
@@ -71,3 +75,11 @@ sockpuppet/
 ## Правовое
 
 Только публичные данные, read-only запросы, без брутфорса и без обхода auth. Не пытайся массово дудосить платформы — `--timeout` и паузы на тебе.
+
+<img src="assets/rig-divider.svg" width="1280" alt="">
+
+## Инженерный процесс лаборатории
+
+`PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE`
+
+Команда: **RIG / KAI / NOVA**. NODE — фирменный маскот. [Правила работы](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
