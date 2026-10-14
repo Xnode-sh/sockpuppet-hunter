@@ -4,6 +4,8 @@
 
 # sockpuppet-hunter
 
+<p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/OSINT-bd2940?style=flat-square&labelColor=17171b" alt="OSINT"></p>
+
 Авторский детект связанных аккаунтов (sockpuppets). Не ищет «где зарегистрирован» — **сшивает разные идентичности в кластеры** по совокупности сигналов:
 
 - перceptual-hash аватарок (совпавшая картинка = сильный сигнал)
@@ -82,4 +84,4 @@ sockpuppet/
 
 `PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE`
 
-Команда: **RIG / KAI / NOVA**. NODE — фирменный маскот. [Правила работы](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
+Команда: **FREYA / LIRA / KRIPTO**. NODE — фирменный маскот. [Правила работы](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
